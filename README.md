@@ -1,6 +1,8 @@
 # Leaky Autofill
 
-Research Artifact for our paper: "Leaky Autofill: An Empirical Study on the Privacy Threat of Password Managers' Autofill Functionality."
+Research Artifact for our ACSAC 2024 paper: "Leaky Autofill: An Empirical Study on the Privacy Threat of Password Managers' Autofill Functionality."
+
+Authors: Yanduo Fu and Ding Wang (Supervisor)
 
 > We recommend reading the `README.md` file in our GitHub repository rather than the `README.md` file contained in the virtual machine image.
 
