@@ -23,7 +23,7 @@ In some processes, we have reserved some steps where testers need to intervene w
 Our artifact includes:
 
 - Source code of our semi-automated tools [[Link]](https://github.com/Leaky-Autofill/LeakyAutofill-Artifact)
-- Source code of the testing websites modified using https://fill.dev/ [[Link]](https://github.com/LeakyAutofill/leakyautofill.github.io) (and hosted in [GitHub](https://leakyautofill.github.io))
+- Source code of the testing websites modified using https://fill.dev/ [[Link]](https://leakyautofill.github.io) (and hosted in [GitHub](https://github.com/LeakyAutofill/leakyautofill.github.io))
 - 24 PM extensions used in our experiments (the other six are built-in-browser PMs) [[Link]](https://zenodo.org/records/13380735)
 
 To facilitate the usage of this artifact, we provide a [`Virtual Machine image`](https://zenodo.org/records/13380735/files/leakyautofill.ova) of Windows 11 with the necessary components to execute the artifact. Besides, all the above codes and browser extensions are archived in [Zenodo](https://zenodo.org/records/13380735).
