@@ -207,7 +207,7 @@ For detailed instructions on using the Enpass password manager for login forms a
 
 For personal information forms, testers are required to wait for the right-click operation conducted by Selenium, click the Enpass extension icon on the browser toolbar, choose the `identifier` information, and trigger the autofill functionality by double-click the item.
 
-## SafeInCloud (Extension ID: SafeInCloud)
+## SafeInCloud (Extension ID: lchdigjbcmdgcfeijpfkpadacbijihjl)
 
 > This PM provides autofill functionality for login forms and credit card forms.
 
