@@ -103,6 +103,10 @@ enter `leakyautofill` as the old/current password, then choose and confirm a new
 This uses Windows' normal password-change process; reinstalling the VM
 or deleting the existing user profile is not necessary.
 
+⚠️ One additional note: the artifact was developed and tested with the browser and password-manager versions used in the paper. Newer versions may have changed their interfaces or autofill behavior, so the original automation scripts may require adjustments to work with them.
+
+If you use newer versions, you may need to update element selectors, interaction steps, or browser-driver versions to match your environment.
+
 ### (E1) Chrome browser-based Password Manager [time required 12 minutes]
 
 This experiment examines whether Chrome browser-based password manager will autofill sensitive data into hidden sensitive fields in web forms. In this case, the concealment techniques directly apply to the `<input>` elements. We have added some tested data in the Chrome browser, including identity information, credentials of the tested account, and credit card. We start Selenium with this profile to facilitate the testing. 
