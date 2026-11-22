@@ -92,6 +92,17 @@ cd C:\Users\artifact\Desktop\Artifact\
 
 We provide testing samples for three PMs in our Virtual Machine image. Testers could create their password account, configure the password manager's properties, and conduct the same pipelines. The results are presented in Table 2 and Table 3 in our paper.
 
+### Windows VM login credentials
+
+- Username: `artifact`
+- Password: `leakyautofill` (all lowercase)
+
+The distributed VM has a 42-day password expiration policy. If Windows reports that the password has expired, follow the prompt to change it:
+enter `leakyautofill` as the old/current password, then choose and confirm a new password.
+
+This uses Windows' normal password-change process; reinstalling the VM
+or deleting the existing user profile is not necessary.
+
 ### (E1) Chrome browser-based Password Manager [time required 12 minutes]
 
 This experiment examines whether Chrome browser-based password manager will autofill sensitive data into hidden sensitive fields in web forms. In this case, the concealment techniques directly apply to the `<input>` elements. We have added some tested data in the Chrome browser, including identity information, credentials of the tested account, and credit card. We start Selenium with this profile to facilitate the testing. 
